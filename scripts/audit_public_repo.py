@@ -18,6 +18,7 @@ FORBIDDEN_PATHS = (
     "config.yaml",
     "debug.log",
 )
+PUBLIC_SITE_ALLOWED = {"public_site/.nojekyll", "public_site/index.html", "public_site/public_data.json"}
 FORBIDDEN_REPORT_PATTERNS = (
     re.compile(r"^reports/report_.*\.html$"),
     re.compile(r"^reports/daily_report_.*\.md$"),
@@ -36,6 +37,8 @@ SAFE_VALUES = {"", "null", "none", "your-value", "your-model-name", "recipient@e
 
 def is_forbidden_path(path):
     normalized = path.replace("\\", "/")
+    if normalized.startswith("public_site/"):
+        return normalized not in PUBLIC_SITE_ALLOWED
     if normalized in FORBIDDEN_PATHS or any(normalized.startswith(prefix) for prefix in FORBIDDEN_PATHS if prefix.endswith("/")):
         return True
     return any(pattern.search(normalized) for pattern in FORBIDDEN_REPORT_PATTERNS)
@@ -72,6 +75,11 @@ def scan_file(path):
                 findings.append(f"possible configuration credential at line {line_number}")
         if TOKEN_VALUE.search(line):
             findings.append(f"token-like value at line {line_number}")
+    if path.as_posix().startswith("public_site/"):
+        for forbidden in ('"title"', '"summary"', '"author"', '"source_url"', '"post_id"', 'xiaoheihe.cn'):
+            if forbidden in text:
+                findings.append("public dashboard contains prohibited content field")
+                break
     return findings
 
 

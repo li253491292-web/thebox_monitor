@@ -173,6 +173,7 @@ def _run_full_cycle():
     for script_name, label in (
         ("reports/generate_markdown.py", "report"),
         ("reports/generate_html.py", "html"),
+        ("scripts/build_public_site.py", "public_site"),
         ("reports/generate_excel.py", "export"),
         ("crawler/popo_notifier.py", "notify"),
     ):

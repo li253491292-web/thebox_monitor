@@ -150,8 +150,17 @@ python scripts/publish_site.py
 ```
 
 It creates `site/` with `index.html`, `report_latest.html`, `echarts.min.js`, and `.nojekyll`.
-The builder is for local/internal preview only. Do not commit the generated `site/` output to a
-public repository until a dedicated anonymized-public-report builder is implemented.
+The local `site/` builder remains internal only. The public deployment uses `public_site/`, built
+by `scripts/build_public_site.py`, which contains only anonymous aggregate counts, daily trends,
+negative category totals, and risk-level totals. It never includes post titles, summaries, authors,
+links, source IDs, POPO recipients, or runtime configuration.
+
+```powershell
+python scripts/build_public_site.py
+```
+
+The Pages workflow deploys only `public_site/`. In the repository's Pages settings, select
+**GitHub Actions** as the build source.
 
 ## HTML Dashboard Behavior
 

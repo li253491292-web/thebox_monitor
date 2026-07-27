@@ -15,6 +15,7 @@ from crawler.popo_notifier import PopoNotificationError, _post_json, build_messa
 from crawler.popo_summary_notifier import categorize_negative_post, summary_window
 from analysis.risk_scoring import risk_level, score_post
 from scripts.audit_public_repo import is_forbidden_path, is_placeholder
+from scripts.build_public_site import build_payload
 from reports import generate_excel
 
 
@@ -127,6 +128,10 @@ class CoreBehaviorTests(unittest.TestCase):
         self.assertFalse(is_forbidden_path("config.example.yaml"))
         self.assertTrue(is_placeholder("${POPO_BOT_APP_SECRET}"))
         self.assertFalse(is_placeholder("real-secret-value"))
+
+    def test_public_payload_has_no_post_content_fields(self):
+        payload = build_payload(days=1)
+        self.assertFalse({"title", "summary", "author", "source_url", "post_id", "content", "receiver"} & set(payload))
 
 
 if __name__ == "__main__":
