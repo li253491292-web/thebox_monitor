@@ -1,3 +1,4 @@
+# Deploy only the audited aggregate dashboard in public_site/.
 name: Deploy Anonymized Public Dashboard
 
 on:
