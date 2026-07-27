@@ -1,0 +1,43 @@
+browser:
+  executable_path: "C:/Program Files/Google/Chrome/Application/chrome.exe"
+  user_data_dir: "./browser_profile/xiaoheihe_automation"
+  headless: false
+
+crawl:
+  start_url: "https://www.xiaoheihe.cn"
+  target_game_name: "极限竞速：地平线6"
+  target_game_id: "2483190"
+  high_risk:
+    enabled: false
+    lookback_days: 7
+    min_risk_score: 500
+
+database:
+  path: "./data/xiaoheihe.sqlite"
+
+analysis:
+  fresh_risk_threshold: 300
+  freshness:
+    under_6_hours: 1.50
+    under_24_hours: 1.25
+    under_48_hours: 1.00
+    historical: 0.65
+  llm:
+    enabled: true
+    api_base: "http://127.0.0.1:15721/v1"
+    api_key: "${NEWAPI_API_KEY}"
+    model: "your-model-name"
+
+notification:
+  popo:
+    enabled: true
+    api_base: "https://open.popo.netease.com"
+    receivers:
+      - "recipient@example.com"
+    app_key_env: "POPO_BOT_APP_KEY"
+    app_secret_env: "POPO_BOT_APP_SECRET"
+    min_risk_score: 500
+    lookback_days: 3
+  summary:
+    enabled: true
+    max_high_risk_posts: 3

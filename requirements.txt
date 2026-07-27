@@ -1,0 +1,6 @@
+playwright
+pandas
+pyyaml
+openpyxl
+jieba
+

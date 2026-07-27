@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+config.yaml
+browser_profile/
+site/
+data/*.sqlite
+data/*.sqlite-*
+data/*.csv
+data/post_urls.txt
+data/.cooldown
+debug.log
+logs/
+reports/*.html
+reports/*.xlsx
+reports/daily_report_*.md
+reports/大纲_*.md
+reports/大纲_*.txt
