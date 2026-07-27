@@ -14,6 +14,7 @@ from crawler.database import parse_count
 from crawler.popo_notifier import PopoNotificationError, _post_json, build_message_chunks
 from crawler.popo_summary_notifier import categorize_negative_post, summary_window
 from analysis.risk_scoring import risk_level, score_post
+from scripts.audit_public_repo import is_forbidden_path, is_placeholder
 from reports import generate_excel
 
 
@@ -119,6 +120,13 @@ class CoreBehaviorTests(unittest.TestCase):
         self.assertEqual(risk_level(300), ("medium", "中风险"))
         self.assertEqual(risk_level(500), ("elevated", "较高风险"))
         self.assertEqual(risk_level(800), ("high", "高风险"))
+
+    def test_public_audit_rejects_runtime_paths_and_accepts_placeholders(self):
+        self.assertTrue(is_forbidden_path("site/report_latest.html"))
+        self.assertTrue(is_forbidden_path("config.yaml"))
+        self.assertFalse(is_forbidden_path("config.example.yaml"))
+        self.assertTrue(is_placeholder("${POPO_BOT_APP_SECRET}"))
+        self.assertFalse(is_placeholder("real-secret-value"))
 
 
 if __name__ == "__main__":

@@ -130,6 +130,19 @@ python crawler/popo_summary_notifier.py --period evening --dry-run
 > has removed post text, authors, source links, interaction data, recipient addresses, and any
 > other sensitive operational content. The current report output is intended for internal use.
 
+Before every public push, run the repository audit:
+
+```powershell
+python scripts/audit_public_repo.py
+```
+
+Install the local Git hooks once after cloning. They block commits and pushes containing runtime
+data, browser profiles, reports, real configuration, `.env` files, and credential-like values:
+
+```powershell
+python scripts/install_git_hooks.py
+```
+
 Run the static-site builder after generating the HTML dashboard:
 
 ```powershell
