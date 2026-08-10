@@ -2,18 +2,18 @@
   "generated_date": "2026-08-10",
   "range_start": "2026-07-12",
   "range_end": "2026-08-10",
-  "posts": 1367,
+  "posts": 1370,
   "sentiment": {
     "positive": 251,
-    "neutral": 806,
+    "neutral": 809,
     "negative": 310
   },
   "negative_categories": {
     "LLM分类待完成": 310
   },
   "negative_risk_levels": {
-    "中风险": 29,
-    "低风险": 266,
+    "中风险": 30,
+    "低风险": 265,
     "较高风险": 15
   },
   "daily": [
@@ -201,30 +201,30 @@
     },
     {
       "date": "2026-08-07",
-      "posts": 46,
+      "posts": 41,
       "positive": 5,
-      "neutral": 27,
-      "negative": 14
+      "neutral": 26,
+      "negative": 10
     },
     {
       "date": "2026-08-08",
-      "posts": 14,
+      "posts": 18,
       "positive": 3,
-      "neutral": 8,
-      "negative": 3
+      "neutral": 9,
+      "negative": 6
     },
     {
       "date": "2026-08-09",
-      "posts": 19,
+      "posts": 22,
       "positive": 3,
-      "neutral": 12,
-      "negative": 4
+      "neutral": 14,
+      "negative": 5
     },
     {
       "date": "2026-08-10",
-      "posts": 3,
+      "posts": 4,
       "positive": 0,
-      "neutral": 3,
+      "neutral": 4,
       "negative": 0
     }
   ]
