@@ -1,29 +1,23 @@
 {
-  "generated_date": "2026-08-11",
-  "range_start": "2026-07-13",
-  "range_end": "2026-08-11",
-  "posts": 1455,
+  "generated_date": "2026-08-12",
+  "range_start": "2026-07-14",
+  "range_end": "2026-08-12",
+  "posts": 1431,
   "sentiment": {
-    "positive": 267,
-    "neutral": 858,
-    "negative": 330
+    "positive": 259,
+    "neutral": 848,
+    "negative": 324
   },
   "negative_categories": {
-    "LLM分类待完成": 330
+    "LLM分类待完成": 324
   },
   "negative_risk_levels": {
-    "中风险": 32,
-    "低风险": 282,
-    "较高风险": 16
+    "中风险": 29,
+    "低风险": 278,
+    "较高风险": 16,
+    "高风险": 1
   },
   "daily": [
-    {
-      "date": "2026-07-13",
-      "posts": 53,
-      "positive": 8,
-      "neutral": 32,
-      "negative": 13
-    },
     {
       "date": "2026-07-14",
       "posts": 87,
@@ -40,16 +34,16 @@
     },
     {
       "date": "2026-07-16",
-      "posts": 46,
+      "posts": 50,
       "positive": 6,
-      "neutral": 32,
+      "neutral": 36,
       "negative": 8
     },
     {
       "date": "2026-07-17",
-      "posts": 51,
+      "posts": 47,
       "positive": 6,
-      "neutral": 35,
+      "neutral": 31,
       "negative": 10
     },
     {
@@ -166,9 +160,9 @@
     },
     {
       "date": "2026-08-03",
-      "posts": 96,
+      "posts": 98,
       "positive": 17,
-      "neutral": 62,
+      "neutral": 64,
       "negative": 17
     },
     {
@@ -180,52 +174,59 @@
     },
     {
       "date": "2026-08-05",
-      "posts": 35,
+      "posts": 37,
       "positive": 11,
-      "neutral": 17,
+      "neutral": 19,
       "negative": 7
     },
     {
       "date": "2026-08-06",
-      "posts": 23,
-      "positive": 3,
-      "neutral": 14,
-      "negative": 6
+      "posts": 20,
+      "positive": 2,
+      "neutral": 13,
+      "negative": 5
     },
     {
       "date": "2026-08-07",
-      "posts": 37,
+      "posts": 40,
       "positive": 4,
-      "neutral": 24,
-      "negative": 9
+      "neutral": 26,
+      "negative": 10
     },
     {
       "date": "2026-08-08",
-      "posts": 18,
+      "posts": 17,
       "positive": 3,
-      "neutral": 8,
+      "neutral": 7,
       "negative": 7
     },
     {
       "date": "2026-08-09",
-      "posts": 56,
-      "positive": 9,
+      "posts": 52,
+      "positive": 7,
       "neutral": 35,
-      "negative": 12
+      "negative": 10
     },
     {
       "date": "2026-08-10",
-      "posts": 76,
-      "positive": 16,
-      "neutral": 44,
-      "negative": 16
+      "posts": 81,
+      "positive": 18,
+      "neutral": 46,
+      "negative": 17
     },
     {
       "date": "2026-08-11",
-      "posts": 23,
-      "positive": 3,
-      "neutral": 16,
-      "negative": 4
+      "posts": 40,
+      "positive": 4,
+      "neutral": 26,
+      "negative": 10
+    },
+    {
+      "date": "2026-08-12",
+      "posts": 8,
+      "positive": 0,
+      "neutral": 6,
+      "negative": 2
     }
   ]
 }
