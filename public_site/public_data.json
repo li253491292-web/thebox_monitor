@@ -1,30 +1,23 @@
 {
-  "generated_date": "2026-08-28",
-  "range_start": "2026-07-30",
-  "range_end": "2026-08-28",
-  "posts": 1377,
+  "generated_date": "2026-08-29",
+  "range_start": "2026-07-31",
+  "range_end": "2026-08-29",
+  "posts": 1382,
   "sentiment": {
-    "positive": 243,
-    "neutral": 799,
-    "negative": 335
+    "positive": 248,
+    "neutral": 794,
+    "negative": 340
   },
   "negative_categories": {
-    "LLM分类待完成": 335
+    "LLM分类待完成": 340
   },
   "negative_risk_levels": {
-    "中风险": 20,
-    "低风险": 299,
-    "较高风险": 14,
-    "高风险": 2
+    "中风险": 27,
+    "低风险": 298,
+    "较高风险": 12,
+    "高风险": 3
   },
   "daily": [
-    {
-      "date": "2026-07-30",
-      "posts": 34,
-      "positive": 3,
-      "neutral": 24,
-      "negative": 7
-    },
     {
       "date": "2026-07-31",
       "posts": 69,
@@ -174,16 +167,16 @@
     },
     {
       "date": "2026-08-21",
-      "posts": 27,
-      "positive": 5,
+      "posts": 29,
+      "positive": 7,
       "neutral": 12,
       "negative": 10
     },
     {
       "date": "2026-08-22",
-      "posts": 16,
+      "posts": 18,
       "positive": 2,
-      "neutral": 9,
+      "neutral": 11,
       "negative": 5
     },
     {
@@ -195,9 +188,9 @@
     },
     {
       "date": "2026-08-24",
-      "posts": 21,
+      "posts": 22,
       "positive": 4,
-      "neutral": 13,
+      "neutral": 14,
       "negative": 4
     },
     {
@@ -209,24 +202,31 @@
     },
     {
       "date": "2026-08-26",
-      "posts": 30,
+      "posts": 31,
       "positive": 2,
-      "neutral": 19,
+      "neutral": 20,
       "negative": 9
     },
     {
       "date": "2026-08-27",
-      "posts": 28,
-      "positive": 3,
+      "posts": 29,
+      "positive": 4,
       "neutral": 18,
       "negative": 7
     },
     {
       "date": "2026-08-28",
-      "posts": 3,
-      "positive": 0,
-      "neutral": 3,
-      "negative": 0
+      "posts": 24,
+      "positive": 3,
+      "neutral": 13,
+      "negative": 8
+    },
+    {
+      "date": "2026-08-29",
+      "posts": 11,
+      "positive": 2,
+      "neutral": 5,
+      "negative": 4
     }
   ]
 }
