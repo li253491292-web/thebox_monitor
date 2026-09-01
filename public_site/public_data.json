@@ -1,30 +1,23 @@
 {
-  "generated_date": "2026-08-31",
-  "range_start": "2026-08-02",
-  "range_end": "2026-08-31",
-  "posts": 1311,
+  "generated_date": "2026-09-01",
+  "range_start": "2026-08-03",
+  "range_end": "2026-09-01",
+  "posts": 1325,
   "sentiment": {
-    "positive": 219,
-    "neutral": 775,
-    "negative": 317
+    "positive": 224,
+    "neutral": 779,
+    "negative": 322
   },
   "negative_categories": {
-    "LLM分类待完成": 317
+    "LLM分类待完成": 322
   },
   "negative_risk_levels": {
-    "中风险": 22,
-    "低风险": 281,
+    "中风险": 24,
+    "低风险": 284,
     "较高风险": 12,
     "高风险": 2
   },
   "daily": [
-    {
-      "date": "2026-08-02",
-      "posts": 45,
-      "positive": 10,
-      "neutral": 26,
-      "negative": 9
-    },
     {
       "date": "2026-08-03",
       "posts": 98,
@@ -181,9 +174,9 @@
     },
     {
       "date": "2026-08-25",
-      "posts": 22,
+      "posts": 23,
       "positive": 0,
-      "neutral": 16,
+      "neutral": 17,
       "negative": 6
     },
     {
@@ -195,37 +188,44 @@
     },
     {
       "date": "2026-08-27",
-      "posts": 40,
+      "posts": 42,
       "positive": 5,
-      "neutral": 27,
-      "negative": 8
+      "neutral": 28,
+      "negative": 9
     },
     {
       "date": "2026-08-28",
-      "posts": 34,
+      "posts": 39,
       "positive": 4,
-      "neutral": 20,
-      "negative": 10
+      "neutral": 24,
+      "negative": 11
     },
     {
       "date": "2026-08-29",
-      "posts": 31,
+      "posts": 32,
       "positive": 10,
-      "neutral": 15,
+      "neutral": 16,
       "negative": 6
     },
     {
       "date": "2026-08-30",
-      "posts": 16,
-      "positive": 3,
-      "neutral": 10,
-      "negative": 3
+      "posts": 29,
+      "positive": 6,
+      "neutral": 15,
+      "negative": 8
     },
     {
       "date": "2026-08-31",
-      "posts": 11,
+      "posts": 39,
+      "positive": 12,
+      "neutral": 20,
+      "negative": 7
+    },
+    {
+      "date": "2026-09-01",
+      "posts": 9,
       "positive": 0,
-      "neutral": 8,
+      "neutral": 6,
       "negative": 3
     }
   ]
