@@ -1,33 +1,26 @@
 {
-  "generated_date": "2026-09-26",
-  "range_start": "2026-08-28",
-  "range_end": "2026-09-26",
-  "posts": 769,
+  "generated_date": "2026-09-27",
+  "range_start": "2026-08-29",
+  "range_end": "2026-09-27",
+  "posts": 735,
   "sentiment": {
-    "positive": 131,
-    "neutral": 456,
-    "negative": 182
+    "positive": 128,
+    "neutral": 438,
+    "negative": 169
   },
   "negative_categories": {
-    "其他/偷跑权益残留/无意义评论": 28,
-    "内容品质": 101,
-    "性能优化": 29,
-    "技术故障（严重恶性BUG）": 24
+    "其他/偷跑权益残留/无意义评论": 25,
+    "内容品质": 95,
+    "性能优化": 27,
+    "技术故障（严重恶性BUG）": 22
   },
   "negative_risk_levels": {
-    "中风险": 19,
-    "低风险": 153,
+    "中风险": 17,
+    "低风险": 142,
     "较高风险": 6,
     "高风险": 4
   },
   "daily": [
-    {
-      "date": "2026-08-28",
-      "posts": 46,
-      "positive": 5,
-      "neutral": 27,
-      "negative": 14
-    },
     {
       "date": "2026-08-29",
       "posts": 34,
@@ -93,10 +86,10 @@
     },
     {
       "date": "2026-09-07",
-      "posts": 27,
+      "posts": 26,
       "positive": 2,
       "neutral": 17,
-      "negative": 8
+      "negative": 7
     },
     {
       "date": "2026-09-08",
@@ -107,10 +100,10 @@
     },
     {
       "date": "2026-09-09",
-      "posts": 67,
+      "posts": 68,
       "positive": 13,
       "neutral": 40,
-      "negative": 14
+      "negative": 15
     },
     {
       "date": "2026-09-10",
@@ -177,9 +170,9 @@
     },
     {
       "date": "2026-09-19",
-      "posts": 27,
+      "posts": 28,
       "positive": 3,
-      "neutral": 15,
+      "neutral": 16,
       "negative": 9
     },
     {
@@ -191,9 +184,9 @@
     },
     {
       "date": "2026-09-21",
-      "posts": 11,
+      "posts": 12,
       "positive": 0,
-      "neutral": 5,
+      "neutral": 6,
       "negative": 6
     },
     {
@@ -205,30 +198,37 @@
     },
     {
       "date": "2026-09-23",
-      "posts": 19,
+      "posts": 20,
       "positive": 4,
-      "neutral": 10,
+      "neutral": 11,
       "negative": 5
     },
     {
       "date": "2026-09-24",
-      "posts": 18,
-      "positive": 0,
-      "neutral": 15,
-      "negative": 3
+      "posts": 21,
+      "positive": 1,
+      "neutral": 16,
+      "negative": 4
     },
     {
       "date": "2026-09-25",
-      "posts": 11,
+      "posts": 12,
       "positive": 2,
-      "neutral": 5,
+      "neutral": 6,
       "negative": 4
     },
     {
       "date": "2026-09-26",
-      "posts": 3,
+      "posts": 6,
       "positive": 0,
-      "neutral": 3,
+      "neutral": 6,
+      "negative": 0
+    },
+    {
+      "date": "2026-09-27",
+      "posts": 2,
+      "positive": 1,
+      "neutral": 1,
       "negative": 0
     }
   ]
