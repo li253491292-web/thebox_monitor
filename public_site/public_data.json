@@ -1,33 +1,26 @@
 {
-  "generated_date": "2026-09-29",
-  "range_start": "2026-08-31",
-  "range_end": "2026-09-29",
-  "posts": 696,
+  "generated_date": "2026-09-30",
+  "range_start": "2026-09-01",
+  "range_end": "2026-09-30",
+  "posts": 653,
   "sentiment": {
-    "positive": 114,
-    "neutral": 415,
-    "negative": 167
+    "positive": 103,
+    "neutral": 390,
+    "negative": 160
   },
   "negative_categories": {
     "其他/偷跑权益残留/无意义评论": 23,
-    "内容品质": 96,
-    "性能优化": 27,
+    "内容品质": 92,
+    "性能优化": 24,
     "技术故障（严重恶性BUG）": 21
   },
   "negative_risk_levels": {
-    "中风险": 20,
-    "低风险": 138,
-    "较高风险": 6,
+    "中风险": 19,
+    "低风险": 134,
+    "较高风险": 4,
     "高风险": 3
   },
   "daily": [
-    {
-      "date": "2026-08-31",
-      "posts": 51,
-      "positive": 12,
-      "neutral": 28,
-      "negative": 11
-    },
     {
       "date": "2026-09-01",
       "posts": 21,
@@ -177,17 +170,17 @@
     },
     {
       "date": "2026-09-22",
-      "posts": 16,
-      "positive": 5,
-      "neutral": 7,
-      "negative": 4
+      "posts": 15,
+      "positive": 4,
+      "neutral": 8,
+      "negative": 3
     },
     {
       "date": "2026-09-23",
-      "posts": 19,
-      "positive": 5,
+      "posts": 21,
+      "positive": 6,
       "neutral": 11,
-      "negative": 3
+      "negative": 4
     },
     {
       "date": "2026-09-24",
@@ -205,10 +198,10 @@
     },
     {
       "date": "2026-09-26",
-      "posts": 8,
+      "posts": 9,
       "positive": 0,
       "neutral": 7,
-      "negative": 1
+      "negative": 2
     },
     {
       "date": "2026-09-27",
@@ -219,17 +212,17 @@
     },
     {
       "date": "2026-09-28",
-      "posts": 12,
+      "posts": 13,
       "positive": 2,
       "neutral": 4,
-      "negative": 6
+      "negative": 7
     },
     {
       "date": "2026-09-29",
-      "posts": 2,
-      "positive": 0,
-      "neutral": 1,
-      "negative": 1
+      "posts": 7,
+      "positive": 1,
+      "neutral": 3,
+      "negative": 3
     }
   ]
 }
