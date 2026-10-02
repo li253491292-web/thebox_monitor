@@ -1,33 +1,26 @@
 {
-  "generated_date": "2026-10-01",
-  "range_start": "2026-09-02",
-  "range_end": "2026-10-01",
-  "posts": 650,
+  "generated_date": "2026-10-02",
+  "range_start": "2026-09-03",
+  "range_end": "2026-10-02",
+  "posts": 644,
   "sentiment": {
-    "positive": 105,
-    "neutral": 388,
-    "negative": 157
+    "positive": 104,
+    "neutral": 387,
+    "negative": 153
   },
   "negative_categories": {
     "其他/偷跑权益残留/无意义评论": 22,
-    "内容品质": 90,
+    "内容品质": 89,
     "性能优化": 23,
-    "技术故障（严重恶性BUG）": 22
+    "技术故障（严重恶性BUG）": 19
   },
   "negative_risk_levels": {
     "中风险": 16,
-    "低风险": 133,
-    "较高风险": 5,
-    "高风险": 3
+    "低风险": 130,
+    "较高风险": 3,
+    "高风险": 4
   },
   "daily": [
-    {
-      "date": "2026-09-02",
-      "posts": 24,
-      "positive": 4,
-      "neutral": 14,
-      "negative": 6
-    },
     {
       "date": "2026-09-03",
       "posts": 23,
@@ -177,17 +170,17 @@
     },
     {
       "date": "2026-09-24",
-      "posts": 25,
+      "posts": 27,
       "positive": 1,
-      "neutral": 18,
+      "neutral": 20,
       "negative": 6
     },
     {
       "date": "2026-09-25",
-      "posts": 12,
+      "posts": 14,
       "positive": 2,
-      "neutral": 6,
-      "negative": 4
+      "neutral": 7,
+      "negative": 5
     },
     {
       "date": "2026-09-26",
@@ -205,24 +198,38 @@
     },
     {
       "date": "2026-09-28",
-      "posts": 14,
+      "posts": 13,
       "positive": 2,
-      "neutral": 5,
+      "neutral": 4,
       "negative": 7
     },
     {
       "date": "2026-09-29",
-      "posts": 12,
+      "posts": 15,
       "positive": 3,
-      "neutral": 5,
-      "negative": 4
+      "neutral": 7,
+      "negative": 5
     },
     {
       "date": "2026-09-30",
-      "posts": 10,
+      "posts": 11,
       "positive": 0,
-      "neutral": 7,
+      "neutral": 8,
       "negative": 3
+    },
+    {
+      "date": "2026-10-01",
+      "posts": 7,
+      "positive": 2,
+      "neutral": 5,
+      "negative": 0
+    },
+    {
+      "date": "2026-10-02",
+      "posts": 4,
+      "positive": 1,
+      "neutral": 3,
+      "negative": 0
     }
   ]
 }
