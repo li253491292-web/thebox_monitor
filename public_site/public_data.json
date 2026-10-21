@@ -1,33 +1,26 @@
 {
-  "generated_date": "2026-10-20",
-  "range_start": "2026-09-21",
-  "range_end": "2026-10-20",
+  "generated_date": "2026-10-21",
+  "range_start": "2026-09-22",
+  "range_end": "2026-10-21",
   "posts": 666,
   "sentiment": {
-    "positive": 124,
-    "neutral": 390,
-    "negative": 152
+    "positive": 126,
+    "neutral": 392,
+    "negative": 148
   },
   "negative_categories": {
-    "其他/偷跑权益残留/无意义评论": 25,
-    "内容品质": 95,
-    "性能优化": 20,
+    "其他/偷跑权益残留/无意义评论": 26,
+    "内容品质": 93,
+    "性能优化": 17,
     "技术故障（严重恶性BUG）": 12
   },
   "negative_risk_levels": {
-    "中风险": 20,
-    "低风险": 127,
+    "中风险": 22,
+    "低风险": 121,
     "较高风险": 2,
     "高风险": 3
   },
   "daily": [
-    {
-      "date": "2026-09-21",
-      "posts": 14,
-      "positive": 0,
-      "neutral": 8,
-      "negative": 6
-    },
     {
       "date": "2026-09-22",
       "posts": 18,
@@ -191,45 +184,52 @@
     },
     {
       "date": "2026-10-15",
-      "posts": 19,
+      "posts": 20,
       "positive": 1,
-      "neutral": 12,
+      "neutral": 13,
       "negative": 6
     },
     {
       "date": "2026-10-16",
-      "posts": 27,
-      "positive": 5,
+      "posts": 26,
+      "positive": 4,
       "neutral": 19,
       "negative": 3
     },
     {
       "date": "2026-10-17",
-      "posts": 19,
-      "positive": 4,
+      "posts": 20,
+      "positive": 5,
       "neutral": 15,
       "negative": 0
     },
     {
       "date": "2026-10-18",
-      "posts": 24,
-      "positive": 8,
+      "posts": 22,
+      "positive": 6,
       "neutral": 12,
       "negative": 4
     },
     {
       "date": "2026-10-19",
-      "posts": 12,
-      "positive": 4,
-      "neutral": 7,
+      "posts": 15,
+      "positive": 6,
+      "neutral": 8,
       "negative": 1
     },
     {
       "date": "2026-10-20",
-      "posts": 4,
-      "positive": 1,
-      "neutral": 3,
+      "posts": 11,
+      "positive": 3,
+      "neutral": 8,
       "negative": 0
+    },
+    {
+      "date": "2026-10-21",
+      "posts": 5,
+      "positive": 0,
+      "neutral": 3,
+      "negative": 2
     }
   ]
 }
