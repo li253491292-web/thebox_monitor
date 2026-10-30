@@ -1,33 +1,26 @@
 {
-  "generated_date": "2026-10-29",
-  "range_start": "2026-09-30",
-  "range_end": "2026-10-29",
-  "posts": 662,
+  "generated_date": "2026-10-30",
+  "range_start": "2026-10-01",
+  "range_end": "2026-10-30",
+  "posts": 670,
   "sentiment": {
-    "positive": 108,
-    "neutral": 440,
-    "negative": 114
+    "positive": 134,
+    "neutral": 388,
+    "negative": 148
   },
   "negative_categories": {
-    "其他/偷跑权益残留/无意义评论": 18,
-    "内容品质": 70,
-    "性能优化": 15,
-    "技术故障（严重恶性BUG）": 11
+    "其他/偷跑权益残留/无意义评论": 23,
+    "内容品质": 95,
+    "性能优化": 21,
+    "技术故障（严重恶性BUG）": 9
   },
   "negative_risk_levels": {
-    "中风险": 13,
-    "低风险": 96,
-    "较高风险": 3,
+    "中风险": 12,
+    "低风险": 130,
+    "较高风险": 4,
     "高风险": 2
   },
   "daily": [
-    {
-      "date": "2026-09-30",
-      "posts": 17,
-      "positive": 1,
-      "neutral": 10,
-      "negative": 6
-    },
     {
       "date": "2026-10-01",
       "posts": 14,
@@ -129,106 +122,113 @@
     {
       "date": "2026-10-15",
       "posts": 25,
-      "positive": 1,
-      "neutral": 18,
+      "positive": 2,
+      "neutral": 17,
       "negative": 6
     },
     {
       "date": "2026-10-16",
       "posts": 30,
-      "positive": 4,
-      "neutral": 23,
-      "negative": 3
+      "positive": 5,
+      "neutral": 20,
+      "negative": 5
     },
     {
       "date": "2026-10-17",
       "posts": 22,
       "positive": 5,
-      "neutral": 17,
-      "negative": 0
+      "neutral": 16,
+      "negative": 1
     },
     {
       "date": "2026-10-18",
       "posts": 25,
       "positive": 6,
-      "neutral": 15,
-      "negative": 4
+      "neutral": 14,
+      "negative": 5
     },
     {
       "date": "2026-10-19",
       "posts": 18,
-      "positive": 5,
-      "neutral": 12,
-      "negative": 1
+      "positive": 6,
+      "neutral": 10,
+      "negative": 2
     },
     {
       "date": "2026-10-20",
       "posts": 20,
-      "positive": 4,
-      "neutral": 16,
-      "negative": 0
+      "positive": 7,
+      "neutral": 12,
+      "negative": 1
     },
     {
       "date": "2026-10-21",
       "posts": 23,
-      "positive": 4,
-      "neutral": 15,
-      "negative": 4
+      "positive": 6,
+      "neutral": 11,
+      "negative": 6
     },
     {
       "date": "2026-10-22",
-      "posts": 15,
-      "positive": 0,
-      "neutral": 15,
-      "negative": 0
+      "posts": 19,
+      "positive": 3,
+      "neutral": 9,
+      "negative": 7
     },
     {
       "date": "2026-10-23",
       "posts": 16,
-      "positive": 0,
-      "neutral": 16,
-      "negative": 0
+      "positive": 2,
+      "neutral": 11,
+      "negative": 3
     },
     {
       "date": "2026-10-24",
-      "posts": 14,
+      "posts": 16,
       "positive": 0,
-      "neutral": 14,
-      "negative": 0
+      "neutral": 10,
+      "negative": 6
     },
     {
       "date": "2026-10-25",
-      "posts": 6,
-      "positive": 0,
-      "neutral": 6,
-      "negative": 0
+      "posts": 7,
+      "positive": 1,
+      "neutral": 4,
+      "negative": 2
     },
     {
       "date": "2026-10-26",
-      "posts": 14,
-      "positive": 0,
-      "neutral": 14,
-      "negative": 0
+      "posts": 15,
+      "positive": 3,
+      "neutral": 9,
+      "negative": 3
     },
     {
       "date": "2026-10-27",
       "posts": 15,
-      "positive": 0,
-      "neutral": 15,
-      "negative": 0
+      "positive": 2,
+      "neutral": 8,
+      "negative": 5
     },
     {
       "date": "2026-10-28",
-      "posts": 12,
-      "positive": 0,
-      "neutral": 12,
-      "negative": 0
+      "posts": 15,
+      "positive": 3,
+      "neutral": 8,
+      "negative": 4
     },
     {
       "date": "2026-10-29",
-      "posts": 6,
+      "posts": 18,
+      "positive": 5,
+      "neutral": 11,
+      "negative": 2
+    },
+    {
+      "date": "2026-10-30",
+      "posts": 2,
       "positive": 0,
-      "neutral": 6,
+      "neutral": 2,
       "negative": 0
     }
   ]
